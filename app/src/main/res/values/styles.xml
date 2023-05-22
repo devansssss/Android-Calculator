@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.MaterialComponents.NoActionBar">
+    </style>
+    <style name="RoundButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/roundbutton</item>
+        <item name="android:layout_height">72dp</item>
+        <item name="android:layout_width">72dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:textColor">#F9F9F9</item>
+        <item name="android:textSize">32dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="operator" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/roundbutton</item>
+        <item name="android:backgroundTint">@color/operator</item>
+        <item name="android:layout_height">72dp</item>
+        <item name="android:layout_width">72dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:textColor">#F9F9F9</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+</resources>
